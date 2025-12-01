@@ -131,4 +131,3 @@ elif page == "تشاتبوت إعادة التدوير":
                 st.code(str(e))
 
 
-!streamlit run app.py & npx --yes localtunnel --port 8501
