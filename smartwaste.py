@@ -130,6 +130,5 @@ elif page == "تشاتبوت إعادة التدوير":
                 st.error("حدث خطأ أثناء الاتصال بـ Gemini.")
                 st.code(str(e))
 
-!wget -q -O - ipv4.icanhazip.com
 
 !streamlit run app.py & npx --yes localtunnel --port 8501
