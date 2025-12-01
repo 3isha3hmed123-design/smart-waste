@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/14a-OKD2NRH4fiWW0OfvQzXl9FpHNrHI-
 """
 
-!pip install streamlit
+
 !npm install -g localtunnel
 
 import os
