@@ -8,7 +8,6 @@ Original file is located at
 """
 
 
-!npm install -g localtunnel
 
 import os
 os.environ["GEMINI_API_KEY"] = "AIzaSyCzKyN5evdWniQzsp0FREGcWtyzSwlYr6k"
