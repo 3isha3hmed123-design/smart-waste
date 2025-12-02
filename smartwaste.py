@@ -10,7 +10,7 @@ Original file is located at
 
 
 import os
-os.environ["GEMINI_API_KEY"] = ""
+os.environ["GEMINI_API_KEY"] = "AIzaSyCGx7eR7o9RUSJh2iZEOrg3Ppkcqn9q7ns"
 
 import streamlit as st
 import os
