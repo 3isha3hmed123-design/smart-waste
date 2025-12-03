@@ -87,7 +87,7 @@
 +    """
      <style>
      .main-title {
-         font-size: 3rem;
+         font-size: 3;
          font-weight: 800;
          text-align: center;
          margin-bottom: 0.3rem;
