@@ -29,7 +29,11 @@ def configure_gemini(api_key: str):
     """Configure the Gemini client if an API key is provided."""
 
     if not api_key:
-        return None, False, "❌ لم يتم العثور على متغير البيئة GEMINI_API_KEY. أضِف المفتاح قبل استخدام التشاتبوت."
+        return (
+            None,
+            False,
+            "❌ لم يتم العثور على مفتاح API. يمكنك لصقه في الشريط الجانبي أو ضبط متغير البيئة GEMINI_API_KEY.",
+        )
 
     try:
         genai.configure(api_key=api_key)
@@ -213,7 +217,7 @@ def render_chatbot():
     if not st.session_state.get("gemini_configured"):
         st.error("❌ Gemini غير مفعّل.")
         st.code(st.session_state.get("gemini_error", ""))
-        st.info("أضِف متغير البيئة GEMINI_API_KEY ثم أعد تشغيل التطبيق.")
+        st.info("أدخل مفتاحك في الشريط الجانبي ثم اضغط تحديث الاتصال أو اضبط متغير البيئة GEMINI_API_KEY.")
         return
 
     st.write("استعن بالمساعد لاقتراح خطوات آمنة للتخلص أو إعادة التدوير.")
