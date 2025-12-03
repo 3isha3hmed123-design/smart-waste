@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/smartwaste.py b/smartwaste.py
 index 193c1aa6ea902f40210b744b72dd6774bc737e7e..7367d7ca692975435021053877c38d1b95f63bbc 100644
 --- a/smartwaste.py
