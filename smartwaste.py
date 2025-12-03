@@ -1,6 +1,5 @@
 --- a/smartwaste.py
 +++ b/smartwaste.py
-@@ -1,133 +1,317 @@
  # -*- coding: utf-8 -*-
 -"""smartwaste
 +"""SmartWaste Streamlit app.
