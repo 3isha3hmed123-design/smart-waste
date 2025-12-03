@@ -1,5 +1,4 @@
 diff --git a/smartwaste.py b/smartwaste.py
-index 193c1aa6ea902f40210b744b72dd6774bc737e7e..9e322498844d34f5f105c9890a27903539723634 100644
 --- a/smartwaste.py
 +++ b/smartwaste.py
 @@ -1,133 +1,317 @@
