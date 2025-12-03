@@ -1,4 +1,3 @@
-diff --git a/smartwaste.py b/smartwaste.py
 --- a/smartwaste.py
 +++ b/smartwaste.py
 @@ -1,133 +1,317 @@
